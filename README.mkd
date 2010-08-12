@@ -1,0 +1,8 @@
+ECRuby Splash Site
+---
+
+To build the site
+  rake build
+  
+Or simply,
+  rake
