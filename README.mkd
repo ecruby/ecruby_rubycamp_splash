@@ -2,7 +2,7 @@ ECRuby Splash Site
 ---
 
 To build the site
-  rake build
+    rake build
   
 Or simply,
-  rake
+    rake
