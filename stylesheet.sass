@@ -5,38 +5,29 @@ body
 
 a
   color: #d0471c
+  img
+    border: 0px
 a:href
   color: #e7714c
+
+h1, h2, h3, h4
+  font-family: 'Goudy Bookletter', Georgia, serif
+  font-weight: normal
+  border-bottom: 1px solid rgba(0,0,0,0.13)
+  padding-bottom: 3px
 
 #container
   padding-top: 40px
   width: 1000px
   margin: 0px auto
   
-nav
-  display: block
-  padding-bottom: 30px
-  ul
-    list-style: none
-    margin: 0px
-    padding: 0px
-    text-align: right
-    li
-      display: inline
-      padding-left: 18px
-      font-size: 16px
-      a
-        text-decoration: none
-        color: #000
-      a:hover
-        color: #c63d12
-
 header
   .imgs
     float: left
     width: 470px
   img.logo
-    margin-top: 150px
+    margin-top: 130px
+    
 #box
   position: relative
   font-size: 18px
@@ -45,14 +36,22 @@ header
   width: 460px
   padding: 20px
   float: right
+  h3
+    border: 0px
   .date
-    margin-top: 80px
+    margin-top: 40px
     .day
       font-size: 36px
+  .location
+    font-size: 15px
   span.footnote
     font-size: 14px
     position: absolute
     bottom: 14px
+    right: 14px
+  img.ecruby
+    position: absolute
+    top: 14px
     right: 14px
     
 #content
@@ -73,10 +72,14 @@ header
 #right
   width: 280px
   float: right
-  padding: 10px
+  padding: 0px 10px
   h3
-    background: rgba(208, 70, 28, 0.17)
-    padding: 6px
+    border: 0px
+    background: transparent
+    font-family: Molengo
+    font-size: 14px
+    text-transform: uppercase
+    padding: 4px
     font-weight: normal
     a
       color: #111111
